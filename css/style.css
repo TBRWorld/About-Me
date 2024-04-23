@@ -1,0 +1,109 @@
+﻿p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.main {
+    margin-left: 5vw;
+}
+.Sidebar {
+    background-color: rebeccapurple;
+    height: 100vw;
+    width: 5vw;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+#background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.Sidebar a {
+    text-decoration: none;
+    color: mediumpurple;
+    font-size: 3vw;
+    margin-left: 1vw;
+    text-shadow: 2px 2px mediumslateblue;
+}
+#disclaimer {
+    color: red;
+    font-family: Bakbak One;
+    font-size: 3vw;
+    text-decoration-line: underline;
+}
+#pfp {
+    border-radius: 15vw;
+    width: 15vw;
+    height: 15vw;
+    border-style: solid;
+    border-color: darkslateblue;
+    border-width: 5px;
+}
+#pfpPositioning {
+    padding-left: 20vw;
+    padding-top: 5vw;
+    left: 0;
+    width: 20vw;
+    float: left;
+}
+.about {
+    border-radius: 3vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkslateblue;
+    width: 45vw;
+    min-height: 15vw;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    float: right;
+    background: rgb(132 130 230 / 33%);
+}
+    .about p {
+        font-size: 27px;
+        color: rgb(22,10,128);
+        margin: 1vw;
+    }
+    .about h1 {
+        color: rgb(12,0,118);
+        font-size: 40px;
+        margin-left: 1vw;
+    }
+.links {
+    border-radius: 3vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkslateblue;
+    bottom: 5px;
+    position: absolute;
+    margin-left: 5vw;
+    height: 50vh;
+    min-width: 85vw;
+    background: rgb(132 130 230 / 33%);
+}
+    .links i {
+        font-size: 150px;
+        width: 18%;
+        word-spacing: 50px;
+        text-decoration: none;
+        color: mediumpurple;
+        text-shadow: 2px 2px mediumslateblue;
+    }
+    #linksCorrection {
+        margin-left: 7vw;
+        margin-top: 10%;
+    }
+.library {
+    border-radius: 3vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkslateblue;
+    background: rgb(132 130 230 / 33%);
+    height: 95vh;
+}
