@@ -71,7 +71,8 @@
         1px -1px 0 #000;
     }
     .about h1 {
-        color: rgb(12,0,118);
+        color: rgb(42, 30, 148);
+        font-weight: 800;
         font-size: 40px;
         margin-left: 1vw;
     }
