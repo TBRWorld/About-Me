@@ -80,15 +80,17 @@
     border-style: solid;
     border-width: 5px;
     border-color: darkslateblue;
-    bottom: 5px;
-    position: absolute;
+    bottom: 1px;
+    position: relative;
+    margin-top: 15vh;
     margin-left: 5vw;
-    height: 50vh;
+    min-height: 40vh;
     min-width: 85vw;
+    float: left;
     background: rgb(132 130 230 / 33%);
 }
     .links i {
-        font-size: 150px;
+        font-size: 10vw;
         width: 18%;
         word-spacing: 50px;
         text-decoration: none;
@@ -96,8 +98,8 @@
         text-shadow: 2px 2px mediumslateblue;
     }
     #linksCorrection {
-        margin-left: 7vw;
-        margin-top: 10%;
+        margin-left: 5vw;
+        margin-top: 12vh;
     }
 .library {
     border-radius: 3vw;
