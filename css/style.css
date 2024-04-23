@@ -37,7 +37,7 @@
     width: 15vw;
     height: 15vw;
     border-style: solid;
-    border-color: darkslateblue;
+    border-color: rgb(55, 47, 106);
     border-width: 5px;
 }
 #pfpPositioning {
@@ -51,7 +51,7 @@
     border-radius: 3vw;
     border-style: solid;
     border-width: 5px;
-    border-color: darkslateblue;
+    border-color: rgb(55, 47, 106);
     width: 45vw;
     min-height: 15vw;
     margin-right: 5vw;
@@ -61,8 +61,13 @@
 }
     .about p {
         font-size: 27px;
-        color: rgb(22,10,128);
+        color: mediumpurple;
         margin: 1vw;
+        text-shadow: 
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
     }
     .about h1 {
         color: rgb(12,0,118);
@@ -73,7 +78,7 @@
     border-radius: 3vw;
     border-style: solid;
     border-width: 5px;
-    border-color: darkslateblue;
+    border-color: rgb(55, 47, 106);
     bottom: 1px;
     position: relative;
     margin-top: 15vh;
@@ -89,7 +94,6 @@
         word-spacing: 50px;
         text-decoration: none;
         color: mediumpurple;
-        text-shadow: 2px 2px mediumslateblue;
     }
     #linksCorrection {
         margin-left: 5vw;
@@ -99,7 +103,7 @@
     border-radius: 3vw;
     border-style: solid;
     border-width: 5px;
-    border-color: darkslateblue;
+    border-color: rgb(55, 47, 106);
     background: rgb(132 130 230 / 33%);
     height: 95vh;
 }
@@ -107,28 +111,41 @@
     border-radius: 3vw;
     border-style: solid;
     border-width: 5px;
-    border-color: darkslateblue;
+    border-color: rgb(55, 47, 106);
     background: rgb(132 130 230 / 33%);
     font-size: 27px;
+    color: mediumpurple;
 }
     .presentation p {
-        color: rgb(22,10,128);
         margin: 1vw;
         margin-left: 1vw;
+        text-shadow: 
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
     }
 .heading {
     font-size:32px;
-    color: rgb(12, 0, 118);
+    color: rgb(42, 30, 148);
     font-weight: 800;
 }
 #keet {
+    width: 25vw;
+    float: right;
+    margin-right: 5vw;
+    margin-left: 2vw;
 
 }
 #guitar {
-
+    float: left;
+    margin-right: 1vw;
+    width: 20vw;
 }
 #dog {
-
+    float: right;
+    height: 50vh;
+    margin-right: 5vw;
 }
 #ambition {
 
