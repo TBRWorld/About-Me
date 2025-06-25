@@ -108,8 +108,20 @@
     border-color: rgb(55, 47, 106);
     background: rgb(69 58 119 / 75%);
     height: 95vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    row-gap: 2vw;
+}
+@media (max-width: 900px) {
+    .library {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .library {
+        grid-template-columns: 1fr;
+    }
 }
 .project {
     border-radius: 3vw;
@@ -117,11 +129,7 @@
     border-width: 5px;
     border-color: rgb(55, 47, 106);
     background: rgb(132 130 230 / 33%);
-    float: left;
-    width: 25vw;
-    height: 30vh;
-    margin: 2vw;
-    margin-left: 3vw;
+    margin: 1vw 2vw; 
     text-align: center;
 }
 .presentation {
